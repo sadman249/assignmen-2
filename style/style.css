@@ -333,6 +333,21 @@ td, th{
 
 
 /* meet section styles */
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  height: 250px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 60%;
+  left: 2%;
+}
 .meet{
   margin-top: 50px;
 }
