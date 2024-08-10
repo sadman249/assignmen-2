@@ -39,6 +39,12 @@
   text-decoration: none;
   list-style: none;
 }
+.btn-primary:hover{
+	transform: scale(1.01) translateY(-5px);
+	background: transparent;
+	border: 1px solid var(--color-3);
+}
+
 .download{
   background-color: transparent;
   border: 2px solid;  
@@ -264,14 +270,18 @@ body{
   margin-left: 200px;
 }
 .run-btn{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.run-btn-1{
   background-color: var(--color-2);
-  margin-top: 10px;
   font-weight: 500;
   font-size: 1.12rem;
   color: rgb(255, 255, 255);
   border: none;
   padding: 10px 40px;
   border-radius: 42px;
+  text-decoration: none;
 }
 
 /* Trainings and Exercises start */
@@ -438,7 +448,7 @@ body{
   justify-content: space-between;
   background: rgba(255, 255, 255, 0.1);
   margin-top: 40px;
-  height: 350px;
+  height: auto;
 }
 .bmi-1{
   margin-left: 180px;
@@ -511,13 +521,10 @@ td, th{
 .res{
   display: flex;
 }
-
-
-
-
-
-
-
+.calculate{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 /* meet section styles */
 .image-container {
