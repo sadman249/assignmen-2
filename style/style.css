@@ -112,6 +112,7 @@ body{
 }
 .banner-description{
   color: var(--color-3);
+  margin-right: 167px;
 }
 .banner-profile-pic{
   width: auto;
@@ -132,14 +133,13 @@ body{
   margin-left: 220px;
 }
 .card-1{
-  position: absolute;
   border:  none;
   height: 96px;
   width: 206px;
   background-color: rgba(48, 48, 48, 0.54);
   border-radius: 12px;
   margin-top: 400px;
-  margin-right: 500px;
+  margin-left: -115px;
   align-items: center;
 }
 .fifth{
@@ -634,7 +634,7 @@ td, th{
   .menu-png{
     display: grid;
     position: absolute;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-top: -15px;
   }
   
@@ -675,6 +675,9 @@ td, th{
     width: 100%;
     height: auto;
   }
+  .banner-description{
+    margin-right: 20px;
+  }
   .picture{
     align-items: center;
     gap: 20px;
@@ -690,6 +693,7 @@ td, th{
   }
   .card-1{
     margin-top: 250px;
+    margin-left: auto;
   }
   .about{
     margin: 0px;
@@ -726,7 +730,12 @@ td, th{
   .color-overlay-container-5,
   .color-overlay-container-6{
     width: auto;
-
+  }
+  .bmi-title{
+    font-size: 0.875rem;
+  }
+  .t-body-title{
+    font-size: 0.8rem;
   }
   .bmi-we{
     margin: 20px 10px;
